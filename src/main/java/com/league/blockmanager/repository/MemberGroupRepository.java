@@ -1,4 +1,7 @@
 package com.league.blockmanager.repository;
 
-public interface MemberGroupRepository {
+import com.league.blockmanager.model.MemberGroup;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface MemberGroupRepository extends JpaRepository<MemberGroup, Long> {
 }
